@@ -1,0 +1,76 @@
+[40.999650955] 2019-06-01 02:18:22,635 - INFO - launcher: Starting sanity checks
+[40.999650955] 2019-06-01 02:18:22,635 - INFO - launcher: Checking for Python 3.5+
+[40.999650955] 2019-06-01 02:18:22,635 - INFO - launcher: Checking console encoding
+[41.999578476] 2019-06-01 02:18:22,636 - INFO - launcher: Setting console encoding to UTF-8
+[41.999578476] 2019-06-01 02:18:22,636 - INFO - launcher: Ensuring we're in the right environment
+[93.998193741] 2019-06-01 02:18:22,688 - INFO - launcher: Adding local bins/ folder to path
+[1045.124530792] 2019-06-01 02:18:23,640 - INFO - launcher: Required checks passed.
+[1045.124530792] 2019-06-01 02:18:23,640 - INFO - launcher: Optional checks passed.
+[1055.124998093] 2019-06-01 02:18:23,650 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.8041162490844727] 2019-06-01 02:18:24,399 - WARNING - musicbot.config | In config.py::MainThread(9276), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.8051159381866455] 2019-06-01 02:18:24,400 - INFO - musicbot.config | In config.py::MainThread(9276), line 131 in run_checks: Using i18n: config/i18n/en.json
+[1.8051159381866455] 2019-06-01 02:18:24,400 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 226 in _setup_logging: Set logging level to INFO
+[1.8101172447204590] 2019-06-01 02:18:24,405 - DEBUG - musicbot.json | In json.py::MainThread(9276), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.8491153717041016] 2019-06-01 02:18:24,444 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 91 in __init__: Starting MusicBot release-120519
+[1.8501157760620117] 2019-06-01 02:18:24,445 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 97 in __init__: Loaded autoplaylist with 2531 entries
+[4.5791935920715332] 2019-06-01 02:18:27,174 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 949 in on_ready: Connection established, ready to go.
+[4.5791935920715332] 2019-06-01 02:18:27,174 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 340 in _cache_app_info: Caching app info
+[4.7391920089721680] 2019-06-01 02:18:27,334 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 781 in _scheck_ensure_env: Deleted old audio cache
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 787 in _scheck_server_permissions: Checking server permissions
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 795 in _scheck_configs: Validating config
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.config | In config.py::MainThread(9276), line 228 in async_validate: Validating options...
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.config | In config.py::MainThread(9276), line 242 in async_validate: Acquired owner id via API
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 798 in _scheck_configs: Validating permissions config
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9276), line 94 in async_validate: Validating permissions...
+[5.0501875877380371] 2019-06-01 02:18:27,645 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9276), line 98 in async_validate: Fixing automatic owner group
+[5.0511877536773682] 2019-06-01 02:18:27,646 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 966 in on_ready: Connected: 584179222063349776/Aggro's Music Bot#1714
+[5.0511877536773682] 2019-06-01 02:18:27,646 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 974 in on_ready: Owner:     238430565047468042/Aggro_Life#5857
+
+[5.0521879196166992] 2019-06-01 02:18:27,647 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 977 in on_ready: Guild List:
+[5.0521879196166992] 2019-06-01 02:18:27,647 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 981 in on_ready:  - Aggro_Life Gaming
+[5.0521879196166992] 2019-06-01 02:18:27,647 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 1037 in on_ready: Not bound to any text channels
+[5.0531880855560303] 2019-06-01 02:18:27,648 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 1063 in on_ready: Not autojoining any voice channels
+[5.0531880855560303] 2019-06-01 02:18:27,648 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 270 in _join_startup_channels: Found owner in "Subscribers only"
+[5.0541880130767822] 2019-06-01 02:18:27,649 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 279 in _join_startup_channels: Attempting to join Aggro_Life Gaming/Subscribers only
+[5.4901831150054932] 2019-06-01 02:18:28,085 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 731 in deserialize_queue: Deserializing queue for 271070037916254208
+[7.2374169826507568] 2019-06-01 02:18:29,832 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 423 in get_player: Created player via deserialization for guild 271070037916254208 with 226 entries
+[7.2374169826507568] 2019-06-01 02:18:29,832 - INFO - musicbot.bot | In bot.py::MainThread(9276), line 295 in _join_startup_channels: Joined Aggro_Life Gaming/Subscribers only
+[7.2384166717529297] 2019-06-01 02:18:29,833 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for None
+[7.2384166717529297] 2019-06-01 02:18:29,833 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for None
+[7.2774167060852051] 2019-06-01 02:18:29,872 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=gH4a7dzhx7Y
+[7.3294157981872559] 2019-06-01 02:18:29,924 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=sB8n58FHBxw
+[9.8936634063720703] 2019-06-01 02:18:32,488 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=gH4a7dzhx7Y
+[10.2806587219238281] 2019-06-01 02:18:32,875 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=sB8n58FHBxw
+[10.2856583595275879] 2019-06-01 02:18:32,880 - FFMPEG - musicbot.player | In player.py::MainThread(9276), line 290 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-sB8n58FHBxw-Lewis_Capaldi_-_Bruises_Live.webm
+[10.3166582584381104] 2019-06-01 02:18:32,911 - DEBUG - musicbot.player | In player.py::MainThread(9276), line 303 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x050D6530> using <discord.voice_client.VoiceClient object at 0x050B69D0>
+[10.3176581859588623] 2019-06-01 02:18:32,912 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 458 in on_player_play: Running on_player_play
+[10.3176581859588623] 2019-06-01 02:18:32,912 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 707 in serialize_queue: Serializing queue for 271070037916254208
+[250.5380280017852783] 2019-06-01 02:22:33,132 - DEBUG - musicbot.player | In player.py::Thread-3(1880), line 217 in _playback_finished: Deleting file: audio_cache\youtube-sB8n58FHBxw-Lewis_Capaldi_-_Bruises_Live.webm
+[250.5870289802551270] 2019-06-01 02:22:33,181 - DEBUG - musicbot.player | In player.py::Thread-3(1880), line 222 in _playback_finished: File deleted: audio_cache\youtube-sB8n58FHBxw-Lewis_Capaldi_-_Bruises_Live.webm
+[251.4606578350067139] 2019-06-01 02:22:34,055 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 534 in on_player_finished_playing: Running on_player_finished_playing
+[251.7041609287261963] 2019-06-01 02:22:34,299 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 707 in serialize_queue: Serializing queue for 271070037916254208
+[251.7321603298187256] 2019-06-01 02:22:34,327 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for None
+[251.7321603298187256] 2019-06-01 02:22:34,327 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for audio_cache\youtube-gH4a7dzhx7Y-Halsey_-_Without_Me_in_the_Live_Lounge.webm
+[251.7321603298187256] 2019-06-01 02:22:34,327 - FFMPEG - musicbot.player | In player.py::MainThread(9276), line 290 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-gH4a7dzhx7Y-Halsey_-_Without_Me_in_the_Live_Lounge.webm
+[251.7576699256896973] 2019-06-01 02:22:34,352 - DEBUG - musicbot.player | In player.py::MainThread(9276), line 303 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x050B6F10> using <discord.voice_client.VoiceClient object at 0x050B69D0>
+[251.7826693058013916] 2019-06-01 02:22:34,377 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=IM-guKDW0kc
+[251.7836685180664062] 2019-06-01 02:22:34,378 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 458 in on_player_play: Running on_player_play
+[251.7876684665679932] 2019-06-01 02:22:34,382 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 707 in serialize_queue: Serializing queue for 271070037916254208
+[253.3571634292602539] 2019-06-01 02:22:35,952 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=IM-guKDW0kc
+[445.7788565158843994] 2019-06-01 02:25:48,373 - DEBUG - musicbot.player | In player.py::Thread-4(10648), line 217 in _playback_finished: Deleting file: audio_cache\youtube-gH4a7dzhx7Y-Halsey_-_Without_Me_in_the_Live_Lounge.webm
+[445.8268558979034424] 2019-06-01 02:25:48,421 - DEBUG - musicbot.player | In player.py::Thread-4(10648), line 222 in _playback_finished: File deleted: audio_cache\youtube-gH4a7dzhx7Y-Halsey_-_Without_Me_in_the_Live_Lounge.webm
+[456.1682763099670410] 2019-06-01 02:25:58,763 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 534 in on_player_finished_playing: Running on_player_finished_playing
+[456.3722763061523438] 2019-06-01 02:25:58,967 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 707 in serialize_queue: Serializing queue for 271070037916254208
+[456.4032757282257080] 2019-06-01 02:25:58,998 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for None
+[456.4032757282257080] 2019-06-01 02:25:58,998 - DEBUG - musicbot.entry | In entry.py::MainThread(9276), line 56 in get_ready_future: Created future for audio_cache\youtube-IM-guKDW0kc-Lewis_Capaldi_-_Grace_in_the_Live_Lounge.webm
+[456.4032757282257080] 2019-06-01 02:25:58,998 - FFMPEG - musicbot.player | In player.py::MainThread(9276), line 290 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-IM-guKDW0kc-Lewis_Capaldi_-_Grace_in_the_Live_Lounge.webm
+[456.4402737617492676] 2019-06-01 02:25:59,035 - DEBUG - musicbot.player | In player.py::MainThread(9276), line 303 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x050D6810> using <discord.voice_client.VoiceClient object at 0x050B69D0>
+[456.4662735462188721] 2019-06-01 02:25:59,061 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=Pj9oOkWSGfw
+[456.4662735462188721] 2019-06-01 02:25:59,061 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 458 in on_player_play: Running on_player_play
+[456.4702732563018799] 2019-06-01 02:25:59,065 - DEBUG - musicbot.bot | In bot.py::MainThread(9276), line 707 in serialize_queue: Serializing queue for 271070037916254208
+[458.3779933452606201] 2019-06-01 02:26:00,972 - INFO - musicbot.entry | In entry.py::MainThread(9276), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=Pj9oOkWSGfw
